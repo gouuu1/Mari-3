@@ -44,3 +44,20 @@ h1{
      max-zoom: 400px;
     
  }
+ button{
+    
+    background-color: rgb(177, 7, 35);
+    transition: transform 1s;
+    transform: translateX(0) scale(2.0);
+}
+button:hover,
+button:focus {
+  background: rgb(255, 1, 77);
+  transform: translateX(10px) scale(3.5);
+  
+}
+a{
+    color: #240008;
+    text-decoration:dotted;
+    
+}
