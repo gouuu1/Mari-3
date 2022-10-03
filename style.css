@@ -75,14 +75,20 @@ a{
     border-left: 20%;
     width: auto;
     height: auto;
-    max-height: 2000px;
+    max-height: 3000px;
     background-color: rgb(255, 146, 146);
     text-shadow: 0 0 15px rgba(255, 255, 255,0.3), 0 0 29px rgb(240, 47, 47);
     box-shadow: inset 0 0 32px rgb(240, 47, 47);
 }
 #mari{
-    height: 700px;
+    position: relative;
+    top: 5px;
+    right: 23%;
+    height: 1200px;
 }
 #shanks{
-    height: 700px;
+    position: relative;
+    left: 23%;
+
+    height: 1200px;
 }
