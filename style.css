@@ -61,3 +61,28 @@ a{
     text-decoration:dotted;
     
 }
+#cabecalhop1{
+    width: 100%;
+    height: 100px;
+    max-width: 3000px;
+    max-height: 200px;
+    background-color: rgb(255, 146, 146);
+    text-shadow: 0 0 15px rgba(255, 255, 255,0.3), 0 0 29px rgb(240, 47, 47);
+    box-shadow: inset 0 0 32px rgb(240, 47, 47);
+}
+#conteudop1{
+    border-right: 20%;
+    border-left: 20%;
+    width: auto;
+    height: auto;
+    max-height: 2000px;
+    background-color: rgb(255, 146, 146);
+    text-shadow: 0 0 15px rgba(255, 255, 255,0.3), 0 0 29px rgb(240, 47, 47);
+    box-shadow: inset 0 0 32px rgb(240, 47, 47);
+}
+#mari{
+    height: 700px;
+}
+#shanks{
+    height: 700px;
+}
