@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+    text-align: center;
+    border-left: 10%;
+    border-right: 10%;
+    border-bottom:10%;
+}
+h1{
+    size: 50px;
+    max-zoom: 200px;
+}
+#cabecalho{
+    width: 100%;
+    height: 70px;
+    max-width: 3000px;
+    max-height: 200px;
+    background-color: rgb(255, 146, 146);
+    text-shadow: 0 0 15px rgba(255, 255, 255,0.3), 0 0 29px rgb(240, 47, 47);
+    box-shadow: inset 0 0 32px rgb(240, 47, 47);
+}
+#titulo{
+   position: relative;
+   top: 15px;
+    color: rgb(56, 4, 4);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-zoom: 400px;
+   
+}
+#conteudo{
+    width: 100%;
+    height: auto;
+    max-height: 2000px;
+    background-color: rgb(255, 146, 146);
+    text-shadow: 0 0 15px rgba(255, 255, 255,0.3), 0 0 29px rgb(240, 47, 47);
+    box-shadow: inset 0 0 32px rgb(240, 47, 47);
+}
+#texto{
+    
+     color: rgb(56, 4, 4);
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     max-zoom: 400px;
+    
+ }
