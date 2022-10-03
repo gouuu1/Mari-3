@@ -83,12 +83,10 @@ a{
 #mari{
     position: relative;
     top: 5px;
-    right: 23%;
+   
     height: 1200px;
 }
 #shanks{
-    position: relative;
-    left: 23%;
-
+    
     height: 1200px;
 }
