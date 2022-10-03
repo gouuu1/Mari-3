@@ -5,12 +5,12 @@ body{
     background-color: brown;
     text-align: center;
     border-left: 10%;
-    border-right: 10%;
+   
     border-bottom:10%;
 }
 h1{
-    size: 50px;
-    max-zoom: 200px;
+    size: 100px;
+
 }
 #cabecalho{
     width: 100%;
@@ -26,7 +26,7 @@ h1{
    top: 15px;
     color: rgb(56, 4, 4);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    max-zoom: 400px;
+    
    
 }
 #conteudo{
@@ -83,7 +83,7 @@ a{
 #mari{
     position: relative;
     top: 5px;
-   
+    
     height: 1200px;
 }
 #shanks{
