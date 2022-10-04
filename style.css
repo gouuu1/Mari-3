@@ -83,10 +83,14 @@ a{
 #mari{
     position: relative;
     top: 5px;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 1200px;
 }
 #shanks{
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 1200px;
 }
