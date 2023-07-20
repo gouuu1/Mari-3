@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container2">
+        <h1>Biblioteca</h1>
+        <p>Bem-vindo à biblioteca! Aqui você encontrará uma vasta coleção de fotos da pessoa mais linda que existe.</p>
+        <div class="slide-container">
+            <img class="slides fade" src="mari1.png" alt="Imagem 1">
+            <img class="slides fade" src="mari2.png" alt="Imagem 2">
+            <img class="slides fade" src="mari3.png" alt="Imagem 3">
+            <img class="slides fade" src="mari4.png" alt="Imagem 4">
+            <img class="slides fade" src="mari5.png" alt="Imagem 5">
+            <!-- Adicione as outras imagens aqui -->
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+
+        <script>
+            let slideIndex = 1;
+
+            function showSlide(n) {
+                const slides = document.getElementsByClassName("slides");
+                if (n > slides.length) {
+                    slideIndex = 1;
+                }
+                if (n < 1) {
+                    slideIndex = slides.length;
+                }
+                for (let i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slides[slideIndex - 1].style.display = "block";
+                slides[slideIndex - 1].style.maxWidth = "100%"; /* Evita que as imagens ultrapassem o container */
+            }
+
+            function changeSlide(n) {
+                showSlide(slideIndex += n);
+            }
+            showSlide(slideIndex); // Mostrar o primeiro slide ao carregar a página
+        </script>
+        <button id="btn-voltar" onclick="window.location.href='index.html'">Voltar</button>
+    </div>
+</body>
+</html>

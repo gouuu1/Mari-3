@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('wpp.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-color: #8b0000; /* Vermelho escuro */
+}
+
+  .container {
+    opacity: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #8b0000;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+  }
+  
+  /* Media Query para telas menores, como celulares */
+  @media screen and (max-width: 600px) {
+    .container {
+      font-size: 20px;
+      width: 90%;
+    }
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ff6e6e;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para quando o cursor estiver sobre o botão */
+  button:hover {
+    background-color: #ff4444;
+    transform: scale(1.1);
+  }
+
+  /* Estilos do slide */
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.slide-container {
+    max-width: 600px;
+    margin: 0 auto; /* Centralizar o slide horizontalmente */
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex; /* Usar flexbox para alinhar as imagens horizontalmente */
+}
+
+.slides img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; /* Evita que as imagens distorçam ao redimensionar */
+    flex: 0 0 100%; /* Distribui igualmente o espaço disponível para cada imagem */
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.container2 {
+    align-self: center;
+    opacity: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #8b0000;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    width: 80%;
+  }
+  .slides.fade {
+    opacity: 100%;
+    transition: opacity 0.5s ease;
+}
+
+.slide-show {
+    opacity: 1;
+}
